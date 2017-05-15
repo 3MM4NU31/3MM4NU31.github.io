@@ -1,0 +1,103 @@
+[{
+  "nombre": "Parque nacional Diriá",
+  "areaConservacion": "	Área de Conservación Arenal - Tempisque",
+  "superficie": "2,800",
+  "coordenadaX": "150",
+  "coordenadaY":"200",
+  "class":"Guanacaste",
+  }, {
+    "nombre": "Parque nacional Barra Honda",
+    "areaConservacion": "Área de Conservación Arenal - Tempisque",
+      "superficie": "	2.295",
+      "coordenadaX": "250",
+      "coordenadaY":"190",
+      "class":"Guanacaste",
+    }, {
+        "nombre": "Parque nacional marino Las Baulas",
+        "areaConservacion": "	Área de Conservación Tempisque",
+          "superficie": "271.450",
+          "coordenadaX": "250",
+          "coordenadaY":"190",
+          "class":"Guanacaste",
+        }, {
+          "nombre": "Parque nacional Palo Verde",
+          "areaConservacion": "Área de Conservación Arenal - Tempisque",
+            "superficie": "18.418",
+            "coordenadaX": "250",
+            "coordenadaY":"190",
+            "class":"p5",
+          }, {
+            "nombre": "Parque nacional Rincón de la Vieja",
+            "areaConservacion": "Área de Conservación de Guanacaste",
+              "superficie": "	14.161",
+              "coordenadaX": "250",
+              "coordenadaY":"190",
+              "class":"Guanacaste",
+            }, {
+              "nombre": "Parque nacional Santa Rosa",
+              "areaConservacion": "Área de Conservación de Guanacaste",
+                "superficie": "38.674",
+                "coordenadaX": "250",
+                "coordenadaY":"190",
+                "class":"Guanacaste",
+              }, {
+                "nombre": "	Parque nacional Volcán Tenorio",
+                "areaConservacion": "Área de Conservación Arenal - Tempisque",
+                  "superficie": "12.872",
+                  "coordenadaX": "250",
+                  "coordenadaY":"190",
+                  "class":"p8",
+                }, {
+                  "nombre": "Parque nacional Guanacaste",
+                  "areaConservacion": "Área de Conservación Guanacaste",
+                    "superficie": "35.200",
+                    "coordenadaX": "250",
+                    "coordenadaY":"190",
+                    "class":"p9",
+                  }, {
+                    "nombre": "Reserva Natural Cabo Blanco",
+                    "areaConservacion": "Área de Conservación - Tempisque",
+                      "superficie": "700 hectareas",
+                      "coordenadaX": "250",
+                      "coordenadaY":"190",
+                      "class":"puntarenas",
+                    }, {
+                      "nombre": "Heredia",
+                      "areaConservacion": "",
+                        "superficie": "",
+                        "coordenadaX": "250",
+                        "coordenadaY":"190",
+                        "class":"puntarenas",
+                      }, {
+                        "nombre": "Heredia",
+                        "areaConservacion": "",
+                          "superficie": "",
+                          "coordenadaX": "250",
+                          "coordenadaY":"190",
+                          "class":"puntarenas",
+                        }, {
+                          "nombre": "Heredia",
+                          "areaConservacion": "",
+                            "superficie": "",
+                            "coordenadaX": "250",
+                            "coordenadaY":"190",
+                            "class":"puntarenas",
+                          }, {
+                            "nombre": "Heredia",
+                            "areaConservacion": "",
+                              "superficie": "",
+                              "coordenadaX": "250",
+                              "coordenadaY":"190",
+                              "class":"puntarenas",
+                            }, {
+                              "nombre": "Heredia",
+                              "areaConservacion": "",
+                                "superficie": "",
+                                "coordenadaX": "250",
+                                "coordenadaY":"190",
+                                "class":"puntarenas"
+
+      }]
+
+
+      
