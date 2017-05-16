@@ -142,7 +142,7 @@ var MAP_HEIGHT = 850;
 var parquesAgregados = [];
 var mapContainer = document.getElementById("mapa");
 var map = new Raphael(mapContainer, MAP_WIDTH, MAP_HEIGHT);
-map.setViewBox(0, 0, 1200, 1200);
+//map.setViewBox(0, 0, 1200, 1200);
 var slideIndex = 1;
 showDivs(slideIndex);
 var group = map.set();
