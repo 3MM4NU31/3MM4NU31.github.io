@@ -1,82 +1,414 @@
-<!DOCTYPE html5>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Parques De CR</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/jquery.modal.css" type="text/css" media="screen" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bitacora</title>
+<!-- meta-tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Wool Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //meta-tags -->
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 			<!-- font-awesome icons -->
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- web-font -->
+<link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<!-- //web-font -->
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-nav">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					   <h1><a class="navbar-brand" href="index.html"><span>B</span>itacora</a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="hvr-bounce-to-bottom active"><a href="index.html">Home</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="about.html">About</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="blog.html">Blog</a></li>
+						</ul>
+					</div><!-- //navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- banner -->
+	<div class="banner">
+		<!-- Slider-starts-Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+			$(function () {
+			  // Slideshow 3
+			  $("#slider3").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+				  $('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+				  $('.events').append("<li>after event fired.</li>");
+				}
+			  });
 
-  </head>
-  <body>
-    <header>
-      <div id="cabecera">
-        <img src="img/cr.png" id="logo">
-      </div>
-    </header>
+			});
+		</script>
+		<!-- //End-slider-script -->
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner-info">
+						<div class="baner-w3text">
+							<h3><img src="images/emmanuel.jpg" id="cara"></h3>
+							<p>Emmanuel Acuña Mora</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-info1">
+						<div class="baner-w3text">
+							<h3><img src="images/emmanuel.jpg" id="cara"></h3>
+							<p>Emmanuel Acuña Mora</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-info2">
+						<div class="baner-w3text">
+							<h3><img src="images/emmanuel.jpg" id="cara"></h3>
+							<p>Emmanuel Acuña Mora</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="banner-bottom-grids">
+			<div class="container">
+				<div class="col-md-3 banner-bottom-grid">
+					<div class="banner-bottom-grd w3-agile-back">
+						<h4>01</h4>
+						<p>Marzo</p>
+						<div class="clearfix"> </div>
 
+					</div>
+					<p class="w3ltext">Fundamentos del diseño</p>
+					<div class="more more4">
+						<a href="marzo.html">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-3 banner-bottom-grid">
 
+					<div class="banner-bottom-grd w3-agile-back1">
+						<h4>02</h4>
+						<p>Abril</p>
+						<div class="clearfix"> </div>
+					</div>
 
-<div id="infoChart" style="display:none;">
-  <div class="w3-content" style="max-width:60%">
-    <img id="slide1" class="mySlides" src="" style="width:100%">
-    <img id="slide2" class="mySlides" src="" style="width:100%">
-    <img id="slide3" class="mySlides" src="" style="width:100%">
-  </div>
+					<p class="w3ltext">Psicología del diseño</p>
+					<div class="more more1">
+						<a href="abril.html">Read More</a>
+					</div>
+				</div>
 
-  <div class="w3-center">
-    <div class="w3-section">
-      <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-      <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
-    </div>
-    <button class="w3-button demo" onclick="currentDiv(1)">1</button>
-    <button class="w3-button demo" onclick="currentDiv(2)">2</button>
-    <button class="w3-button demo" onclick="currentDiv(3)">3</button>
-    <!-- <h1>{{titulo}}</h1>
-    <span>"{{info}}"</span> -->
-  </div>
-  <div id="datos">
+				<div class="col-md-3 banner-bottom-grid">
+					<div class="banner-bottom-grd w3-agile-back2">
+						<h4>03</h4>
+						<p>Mayo</p>
+						<div class="clearfix"> </div>
+					</div>
+					<p class="w3ltext">Design</p>
+					<div class="more more2">
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-3 banner-bottom-grid">
+					<div class="banner-bottom-grd w3-agile-back3">
+						<h4>04</h4>
+						<p>Junio</p>
+						<div class="clearfix"> </div>
+					</div>
+					<p class="w3ltext">Design</p>
+					<div class="more more3">
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- welcome -->
+	<div class="welcome w3-agileits">
+		<!-- <div class="container">
+			<h2>Welcome !</h2>
+			<div class="banner-agileits-w3layouts">
+				<div class="col-md-4 welcome-grid">
+					<img src="images/1.jpg" alt=" " class="img-responsive" />
+				</div>
+				<div class="col-md-8 welcome-grid">
+					<h4>voluptatibus maiores alias consequatur aut perferendis aliquid ex ea commodi consequatur</h4>
+					<p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+						suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+						vel illum qui dolorem eum fugiat quo voluptas.</p>
+					<div class="more">
+						<a href="single.html">Read More</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div> -->
+	</div>
+	<!-- //welcome -->
+	<!-- newsletter -->
+	<!-- <div class="newsletter">
+		<div class="container">
+			<div class="get-in-grids">
+				<div class="get-in-grid-left">
+					<p>Newsletter</p>
+				</div>
+				<div class="get-in-grid-right">
+					<form action="#" method="post">
+						<input type="email" name="email" Placeholder="Enter Your Mail..." required="">
+						<input type="submit" value="Subscribe" >
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- news -->
+	<!-- <div class="news">
+		<div class="container">
+			<h3>News & Events</h3>
+			<p class="news-wthreetext">Vel illum qui dolorem eum aliquid ex ea commodi consequatur
+				vel illum qui dolorem eum fugiat quo voluptas</p>
+			<div class="news-agileinfo">
+				<div class="col-md-6 news-grid">
+					<div class="col-xs-4 news-grid-left">
+						<p>22nd<span>Sept</span></p>
+					</div>
+					<div class="col-xs-8 news-grid-right">
+						<p>Itaque earum rerum hic tenetur a sapiente
+							delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+							aut perferendis doloribus asperiores repellat.</p>
+						<div class="more">
+							<a href="single.html">Read More</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 news-grid">
+					<div class="col-xs-4 news-grid-left">
+						<p>28th<span>Sept</span></p>
+					</div>
+					<div class="col-xs-8 news-grid-right">
+						<p>Itaque earum rerum hic tenetur a sapiente
+							delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+							aut perferendis doloribus asperiores repellat.</p>
+						<div class="more">
+							<a href="single.html">Read More</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="news-agileinfo">
+				<div class="col-md-6 news-grid">
+					<div class="col-xs-4 news-grid-left">
+						<p>11th<span>Oct</span></p>
+					</div>
+					<div class="col-xs-8 news-grid-right">
+						<p>Itaque earum rerum hic tenetur a sapiente
+							delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+							aut perferendis doloribus asperiores repellat.</p>
+						<div class="more">
+							<a href="single.html">Read More</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 news-grid">
+					<div class="col-xs-4 news-grid-left">
+						<p>25th<span>Oct</span></p>
+					</div>
+					<div class="col-xs-8 news-grid-right">
+						<p>Itaque earum rerum hic tenetur a sapiente
+							delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+							aut perferendis doloribus asperiores repellat.</p>
+						<div class="more">
+							<a href="single.html">Read More</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div> --> -->
+	<!-- //news -->
+	<!-- customer -->
+	<!-- <div class="customer">
+		<div class="container">
+			<h3>Customer Says</h3>
+			<div class="customer-w3layoutsgrids">
+				<ul id="flexiselDemo1">
+					<li>
+						<div class="customer-grid">
+							<p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+								consectetur, adipisci velit, sed quia non numquam eius modi tempora
+								incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+							<h4>John Smith</h4>
+						</div>
+					</li>
+					<li>
+						<div class="customer-grid">
+							<p> Sed quia non numquam eius modi tempora neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+								consectetur, adipisci velit,
+								incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+							<h4>Micheal Robert</h4>
+						</div>
+					</li>
+					<li>
+						<div class="customer-grid">
+							<p> Qui dolorem ipsum quia dolor sit amet, veque porro quisquam est,
+								consectetur, adipisci velit, sed quia non numquam eius modi tempora
+								incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+							<h4>Williumson</h4>
+						</div>
+					</li>
+				</ul>
+				<script type="text/javascript">
+					$(window).load(function() {
+						$("#flexiselDemo1").flexisel({
+							visibleItems: 3,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: {
+								portrait: {
+									changePoint:480,
+									visibleItems: 1
+								},
+								landscape: {
+									changePoint:640,
+									visibleItems:2
+								},
+								tablet: {
+									changePoint:768,
+									visibleItems: 2
+								}
+							}
+						});
 
-  </div>
+					});
+				</script>
+				<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+			</div>
+		</div>
+	</div> -->
+	<!-- //customer -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-agileitsrow">
+				<div class="col-md-3 footer-grid">
+					<h3>Información</h3>
+					<p>Bítacora Diseño Web 2017</p>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h3>Social Media</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/3MM4NU31.4CUNA.M0R4"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+						<li><a href="https://twitter.com/emma_acuna"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+						<li><a href="https://plus.google.com/u/0/110660169482271518682"><i class="fa fa-google" aria-hidden="true"></i> Google+</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h3>Useful Info</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h3>Contact Us</h3>
+					<p>Emmanuel Acuña Mora</p>
+					<div class="footer-grid-address">
+						<p>Tel.89687605</p>
+						<p>Email: <a class="email-link" href="mailto:emanuel.acuna.mora">Example.com</a></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="copy-right">
 
-</div>
-    <div id="mapa" >
- </div>
- <div id="coordenadas">
+	</div>
+	<!-- //footer -->
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
 
- </div>
-    <script src="js/raphael.js"></script>
-    <script src="js/jquery-3.2.0.min.js"></script>
-    <script src="js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/app.js"></script>
-    <iframe id="forecast_embed" class="SanJose" type="text/html" frameborder="0" height="245"
-width="20%"
-src="https://forecast.io/embed/#lat=9.919309&lon=-84.053650&name= San Jose&color=#00aaff&font=Georgia&units=ca">
-</iframe>
-<iframe id="forecast_embed" class="Guanacaste" type="text/html" frameborder="0" height="245"
-width="20%"
-src="https://forecast.io/embed/#lat=10.633193&lon=-85.431061&name= Guanacaste&color=#00aaff&font=Georgia&units=ca">
-</iframe>
-<iframe id="forecast_embed" class="Puntarenas" type="text/html" frameborder="0" height="245"
-width="20%"
-src="https://forecast.io/embed/#lat=9.974831&lon=-84.823723&name= Puntarenas&color=#00aaff&font=Georgia&units=ca">
-</iframe>
-<iframe id="forecast_embed" class="Alajuela" type="text/html" frameborder="0" height="245"
-width="20%"
-src="https://forecast.io/embed/#lat=10.007291&lon=-84.205055&name= Alajuela&color=#00aaff&font=Georgia&units=ca">
-</iframe>
-<iframe id="forecast_embed" class="Heredia" type="text/html" frameborder="0" height="245"
-width="20%"
-src="https://forecast.io/embed/#lat=10.152535&lon=-84.009018&name= Heredia&color=#00aaff&font=Georgia&units=ca">
-</iframe>
-<iframe id="forecast_embed" class="Cartago" type="text/html" frameborder="0" height="245"
-width="20%"
-src="https://forecast.io/embed/#lat=9.853652&lon=-83.9142618&name= Cartago&color=#00aaff&font=Georgia&units=ca">
-</iframe>
-<iframe id="forecast_embed" class="Limon" type="text/html" frameborder="0" height="245"
-width="20%"
-src="https://forecast.io/embed/#lat=9.978826&lon=-83.037415&name= Limón&color=#00aaff&font=Georgia&units=ca">
-</iframe>
-  </body>
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"> </script>
+	<!-- //for bootstrap working -->
+</body>
 </html>
