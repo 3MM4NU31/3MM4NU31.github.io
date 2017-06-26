@@ -566,6 +566,11 @@ p.news-wthreetext{
 	margin:2em 0 0;
 	text-align:left;
 }
+
+.w3layouts-textdos{
+	margin:2em 0 0;
+	text-align:center;
+}
 .w3layouts-text p{
 	width:60%;
 	margin:2em auto 0;
